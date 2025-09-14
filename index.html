@@ -5,39 +5,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> add font awesome -->
     <title>Portfolio</title>
 </head>
 
 <body class="bg-gray-100">
 
+
+
     <div class="h-screen w-full bg-cover bg-center bg-[url('welcome-background.jpg')]">
         
-        <div class="">
-            <header class="m-35">
-                <nav class="text-white flex gap-130 p-4">
-                    <p class="text-2xl font-bold">Claire</p>
-                    <ul class="flex gap-10">
-                        <li><a href="#Home" class="space-x-4">Home</a></li>
-                        <li><a href="#About">About Me</a></li>
-                        <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+        <!-- Navigation bar -->
 
-        <section class="flex justify-around">
-            <div class="text-white text-center mt-60">
+        <header class="ml-35">
+            <nav class=" text-white flex gap-130 p-6">
+                <p class="text-2xl font-bold">Claire</p>
+                <ul class="flex gap-10">
+                    <li><a href="#Home" class="space-x-4">Home</a></li>
+                    <li><a href="#About">About Me</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Hello section -->
+
+        <section class="m-38 flex justify-between gap-10">
+            <div class="text-white">
                 <h1 class="text-5xl font-bold">Hello I'm <span class="text-yellow-500">Claire</span></h1>
-                <p class="text-xl mb-8">I'm Claire, a passionate developer.</p>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</button>
+                <p class="text-xl mb-8 w-130 pt-10" >I’m Claire, a passionate developer with a strong interest in frontend development
+                     and web design.</p>
+                <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">Learn More</button>
             </div>
 
             <div>
-                <img src="DCC01.png" alt="me">
+                <img src="me-edited3.jpg" alt="me">
             </div>
         
         </section>
+
+
+        <!-- About section -->
+         <main class="m-38 flex justify-between gap-10">
+
+            <h2>About Me</h2>
+            <div>
+                <img src="me2_edited.jpg" alt="about-img" class="w-70 h-60">
+            </div>
+
+            <div class="">
+                <p class="text-3xl font-bold text-center">About Me</p>                
+                <p>Web Developer & Web Designer Based on New York</p>
+                <p>I specialize in frontend development, which focuses
+                    on creating user-friendly interfaces and seamless user experiences.
+                </p>
+                <button><a href="">Read More</a></button>
+
+            </div>
+         </main>
+
+
+       
+        <!-- cards section -->
+
+        <section class="m-38 flex justify-between gap-5">
+            <div>
+                <img src="wb-bgk2.jpg" alt="">
+                <h2>A stary night</h2>
+                <p>My goal is to combine creativity and technical
+                     skills to deliver solutions that 
+                    are both visually appealing and effective.</p>
+                <button><a href="">Explore</a></button>
+            </div>
+
+            <div>
+                <img src="wb-bgk2.jpg" alt="">
+                <h2>Misty morning</h2>
+                <p>My goal is to combine creativity and technical skills to deliver 
+                    solutions that are both visually appealing and effective.</p>
+                <button><a href="">Explore</a></button>
+            </div>
+
+            <div>
+                <img src="wb-bgk2.jpg" alt="">
+                <h2>Utah sunsets</h2>
+                <p>My goal is to combine creativity and technical skills to deliver
+                     solutions that are both visually appealing and effective.</p>
+                <button><a href="">Explore</a></button>
+            </div>
+
+        </section>
+
+        <div class="m-35">
+            <h1 class="text-3xl font-bold text-center">Contact Us</h1>
+
+            <form class="flex justify-center flex flex-col w-full max-w-md">
+                <label for="">First Name
+                    <p></p><input type="text"name="first-name" class="border-b border-gray-400 focus:outline-none focus:border-blue-500"></label>
+                <label for="">Last Name
+                    <p></p><input type="text"name="last-name" class="border-b border-gray-400 focus:outline-none focus:border-blue-500"></label>
+
+                <label for=""><p>Email</p><input type="text" name="email" class="border-b border-gray-400 focus:outline-none focus:border-blue-500"></label>
+
+                <textarea name="message" id="" class="border-b border-gray-400 focus:outline-none focus:border-blue-500" >Message</textarea>
+                <input type="submit" value="SEND" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+            </form>
+        </div>
+
+
+      <footer>
+        <div class="bg-gray-800 text-white p-6 text-center">
+            <p>&copy; 2024 Claire's Portfolio. All rights reserved.</p>
+        </div>
+            
+      </footer>
+        
+
+
     </div>
 
 </body>

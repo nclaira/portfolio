@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> <!-- add font awesome -->
-     <!-- Google Font link -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- add font awesome -->
+    <!-- Google Font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Portfolio</title>
 </head>
 
@@ -19,146 +20,152 @@
 
 
     <div class="h-screen w-full bg-cover bg-center bg-[url('welcome-background.jpg')]">
-        
+
         <!-- Navigation bar -->
-<header class="ml-[31px]">
-  <nav class="container mx-auto text-white flex justify-between items-center p-6">
-    <p class="text-5xl font-bold">Claire</p>
-    <ul class="flex flex-col lg:flex-row gap-6 text-lg">
-      <li><a href="#Home" class="hover:text-yellow-500 underline underline-offset-10 decoration-yellow-500">Home</a></li>
-      <li><a href="#About" class="hover:text-yellow-500">About</a></li>
-      <li><a href="#Projects" class="hover:text-yellow-500">Projects</a></li>
-      <li><a href="#Contact" class="hover:text-yellow-500">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+        <header class="ml-[31px]">
+            <nav class="container mx-auto text-white flex justify-between items-center p-6">
+                <p class="text-5xl font-bold">Claire</p>
+                <ul class="flex flex-col lg:flex-row gap-6 text-lg">
+                    <li><a href="#Home"
+                            class="hover:text-yellow-500 underline underline-offset-10 decoration-yellow-500">Home</a>
+                    </li>
+                    <li><a href="#About" class="hover:text-yellow-500">About</a></li>
+                    <li><a href="#Projects" class="hover:text-yellow-500">Projects</a></li>
+                    <li><a href="#Contact" class="hover:text-yellow-500">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
 
 
         <!-- Hello section -->
 
-        <section class="m-[38px] flex justify-between gap-10 container mx-auto flex-col md:flex-row  py-20 px-12" id="Home">
+        <section class="m-[38px] flex justify-between gap-10 container mx-auto flex-col md:flex-row  py-20 px-12"
+            id="Home">
             <div class="text-white">
                 <h1 class="text-5xl font-bold">Hello I'm <span class="text-yellow-500">Claire</span></h1>
-                <p class="text-xl mb-8 w-130 pt-10 w-16 md:w-full" >I’m Claire, a passionate developer with a strong interest in frontend development
-                     and web design.</p>
-                <button id="About" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">Read More <span class="text-xl">→</span></button>
+                <p class="text-xl mb-8 w-130 pt-10 w-16 md:w-full">I’m Claire, a passionate developer with a strong
+                    interest in frontend development
+                    and web design.</p>
+                <button id="About" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">Read
+                    More <span class="text-xl">→</span></button>
             </div>
 
-           
-                <img src="me1.jpg" alt="me"  class="rounded-full w-70 h-75 shadow-[0_0_95px_white]" >
-            
-        
-        </section>
-
-
-        <!-- About section -->
-
-        <!-- About section -->
-<section id="About" class="m-38 container mx-auto flex flex-col md:flex-row items-center py-20 px-12">
-    <!-- Image -->
-    <img src="me1.jpg" alt="about-img" class="w-70 h-70 mr-20 mb-8 md:mb-0 md:mr-10">
-
-    <!-- Text -->
-    <div>
-        <h2 class="text-3xl font-bold text-yellow-500">About Me</h2>                
-        <p class="mt-10 mb-8">
-            Web Developer & Web Designer Based in New York.
-            I specialize in frontend development, which focuses
-            on creating user-friendly interfaces and seamless user experiences.
-        </p>
-        <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
-            More <span class="text-xl">→</span>
-        </button>
+            <img src="me1.jpg" alt="me" class="rounded-full w-70 h-75 shadow-[0_0_95px_white]">
     </div>
-</section>
+    </section>
 
 
-<!-- Projects section -->
-<section id="Projects" class="m-38 py-20 px-12">
-    <div class="container mx-auto">
-        <h2 class="text-3xl font-bold text-yellow-500 text-center">My Projects</h2>
+    <!-- About section -->
+    <section id="About" class="ml-30 container mx-auto flex flex-col md:flex-row items-center py-20 px-12">
+        <img src="me1.jpg" alt="about-img" class="w-70 h-70 mr-20 mb-8 md:mb-0 md:mr-10">
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
-            <!-- Project 1 -->
-            <div>
-                <h3 class="text-xl font-bold mb-8">Portfolio</h3>
-                <img src="wb-bgk2.jpg" alt="">
-                <p>
-                    My goal is to combine creativity and technical
-                    skills to deliver solutions that are both visually appealing and effective.
-                </p>
-            </div>
+        <div>
+            <h2 class="text-3xl font-bold text-yellow-500">About Me</h2>
+            <p class="mt-10 mb-5">
+                Web Developer & Web Designer Based in New York.
+                I specialize in frontend development, which focuses
+                on creating user-friendly interfaces and seamless user experiences.
+            </p>
+            <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+                More <span class="text-xl">→</span>
+            </button>
+        </div>
+    </section>
 
-            <!-- Project 2 -->
-            <div>
-                <h3 class="text-xl font-bold mb-8">Yuuki Website</h3>
-                <img src="wb-bgk2.jpg" alt="">
-                <p>
-                    My goal is to combine creativity and technical skills to deliver 
-                    solutions that are both visually appealing and effective.
-                </p>
-            </div>
 
-            <!-- Project 3 -->
-            <div>
-                <h3 class="text-xl font-bold mb-8">Utah Sunsets</h3>
-                <img src="wb-bgk2.jpg" alt="">
-                <p>
-                    My goal is to combine creativity and technical skills to deliver
-                    solutions that are both visually appealing and effective.
-                </p>
-                <!-- <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+    <!-- Projects section -->
+    <section id="Projects" class="ml-20 py-5 px-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-yellow-500 text-center">My Projects</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+                <!-- Project 1 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-8">Portfolio</h3>
+                    <img src="wb-bgk2.jpg" alt="">
+                    <p>
+                        My goal is to combine creativity and technical
+                        skills to deliver solutions that are both visually appealing and effective.
+                    </p>
+                </div>
+
+                <!-- Project 2 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-8">Yuuki Website</h3>
+                    <img src="wb-bgk2.jpg" alt="">
+                    <p>
+                        My goal is to combine creativity and technical skills to deliver
+                        solutions that are both visually appealing and effective.
+                    </p>
+                </div>
+
+                <!-- Project 3 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Utah Sunsets</h3>
+                    <img src="wb-bgk2.jpg" alt="">
+                    <p>
+                        My goal is to combine creativity and technical skills to deliver
+                        solutions that are both visually appealing and effective.
+                    </p>
+                    <!-- <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
                     Explore <span class="text-xl">→</span> -->
-                </button>
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
 
-     <!-- Contact section -->
-                <section id="Contact" class= "container mx-auto flex flex-col md:flex-row items-center py-20 px-12">
-                    <div>
+    <!-- Contact section -->
+    <section id="Contact" class="container mx-auto flex flex-col md:flex-row items-center py-20 px-12">
+        <div>
             <h1 class="text-3xl font-bold text-center">Contact Us</h1>
 
             <form class="mx-w-lg mx-auto p-10 rounded-xl space-y-4">
                 <div>
 
-            <label for="">First Name<p>
-                <input type="text"name="first-name" class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200"></label>
+                    <label for="">First Name<p>
+                            <input type="text" name="first-name"
+                                class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200"></label>
 
                 </div>
 
                 <div>
-                <label for="">Last Name
-                    <p><input type="text"name="last-name" class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200"></label>
+                    <label for="">Last Name
+                        <p><input type="text" name="last-name"
+                                class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200">
+                    </label>
                 </div>
 
                 <div>
-                <label for="">Email
-                    <p><input type="text" name="email" class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200"></label>
+                    <label for="">Email
+                        <p><input type="text" name="email"
+                                class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200">
+                    </label>
                 </div>
 
-                <textarea placeholder="Message" name="message" id="" class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200" ></textarea>
-                <input type="submit" value="SEND" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-10">
-            </div>    
-            </section>
+                <textarea placeholder="Message" name="message" id=""
+                    class="border-b border-gray-400 focus:outline-none focus:border-blue-500 w-200"></textarea>
+                <input type="submit" value="SEND"
+                    class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-10">
+        </div>
+    </section>
 
 
-      <footer>
-        <div class="bg-yellow-600 text-white p-6">
+    <footer>
+        <div class="bg-yellow-600 text-white p-6 text-center">
             <p>&copy; 2025 Claire's Portfolio. All rights reserved.</p>
         </div>
-            
-      </footer> 
-        
+
+    </footer>
+
 
 
     </div>
 
 </body>
 
-</html> 
+</html>
